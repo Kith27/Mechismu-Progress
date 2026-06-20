@@ -31,6 +31,31 @@
         "discussion": "",
         "decisions": ""
       }
+    },
+    "2026-M05": {
+      "targets": [
+        {
+          "text": "okok",
+          "done": false
+        }
+      ],
+      "meeting": {
+        "date": "",
+        "attendees": "",
+        "discussion": "",
+        "decisions": ""
+      }
+    }
+  },
+  "drivetrain": {
+    "2026-M06": {
+      "targets": [],
+      "meeting": {
+        "date": "",
+        "attendees": "",
+        "discussion": "",
+        "decisions": ""
+      }
     }
   }
 }
