@@ -17,6 +17,20 @@
         "discussion": "",
         "decisions": ""
       }
+    },
+    "2026-M06": {
+      "targets": [
+        {
+          "text": "ok",
+          "done": false
+        }
+      ],
+      "meeting": {
+        "date": "",
+        "attendees": "",
+        "discussion": "",
+        "decisions": ""
+      }
     }
   }
 }
