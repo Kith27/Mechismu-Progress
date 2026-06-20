@@ -277,7 +277,6 @@ input,textarea,select{font-family:inherit;color:inherit}
   <div class="tb-right">
     <span class="mode-chip view" id="mode-chip">VIEW</span>
     <button class="mode-btn" id="mode-btn">→ Lead Edit</button>
-    <button class="setup-btn" id="setup-btn" title="GitHub Setup">⚙</button>
   </div>
 </div>
 
@@ -359,7 +358,7 @@ function shiftMonth(k,d){
 }
 
 // ═══════════════ GITHUB / WORKER ═══════════════
-function getCfg(){try{return JSON.parse(localStorage.getItem('fsae_cfg')||'null');}catch{return null;}}
+function getCfg(){return {workerUrl:'https://fsaetracker.saaketharamk2006.workers.dev',leadPw:localStorage.getItem('fsae_lead_pw')||'fsae2025'};}
 function setCfg(c){localStorage.setItem('fsae_cfg',JSON.stringify(c));}
 
 async function apiLoad(){
