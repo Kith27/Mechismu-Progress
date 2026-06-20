@@ -359,7 +359,7 @@ function shiftMonth(k,d){
 }
 
 // ═══════════════ GITHUB / WORKER ═══════════════
-function getCfg(){return {workerUrl:'https://fsaetracker.saaketharamk2006.workers.dev',leadPw:localStorage.getItem('fsae_lead_pw')||'fsae2025'};}
+function getCfg(){return {workerUrl:'fsaetracker.saaketharamk2006.workers.dev',leadPw:localStorage.getItem('LEAD_PASSWORD')||'fsae2025'};}
 function setCfg(c){localStorage.setItem('fsae_cfg',JSON.stringify(c));}
 
 async function apiLoad(){
