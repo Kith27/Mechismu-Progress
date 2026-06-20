@@ -1,1 +1,18 @@
-{}
+{
+  "chassis": {
+    "2026-W25": {
+      "targets": [
+        {
+          "text": "hi",
+          "done": false
+        }
+      ],
+      "meeting": {
+        "date": "",
+        "attendees": "",
+        "discussion": "",
+        "decisions": ""
+      }
+    }
+  }
+}
