@@ -4,7 +4,7 @@
       "targets": [
         {
           "text": "hi",
-          "done": false
+          "done": true
         },
         {
           "text": "heelo",
