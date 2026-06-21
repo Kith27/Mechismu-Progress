@@ -4,11 +4,11 @@
       "targets": [
         {
           "text": "hi",
-          "done": true
+          "done": false
         },
         {
           "text": "heelo",
-          "done": false
+          "done": true
         }
       ],
       "meeting": {
